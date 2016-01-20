@@ -7,6 +7,7 @@
   <description>Video Presentation of Pressure Passing Technique Part 1 of 4</description>
   <author href="http://www.bjjsuperdeals.com" email="bjjsuperdeals@gmail.com">Patrick Kennedy</author>
   <plugin name="com.moust.cordova.videoplayer" spec="1.0.0" source="pgb" />
+  <plugin name="VideoPlayer" value="com.phonegap.plugins.video.VideoPlayer"/>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
@@ -22,7 +23,7 @@
   <preference name="auto-hide-splash-screen" value="true"/>
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
-  <preference name="android-installLocation" value="auto"/>
+  <preference name="android-installLocation" value="auto'
   <gap:plugin name="org.apache.cordova.battery-status"/>
   <gap:plugin name="org.apache.cordova.camera"/>
   <gap:plugin name="org.apache.cordova.media-capture"/>
